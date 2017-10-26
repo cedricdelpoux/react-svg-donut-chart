@@ -1,0 +1,15 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "amd": true,
+    "es6": true,
+    "jest/globals": true
+  },
+  "plugins": ["jest", "prettier", "react"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:jest/recommended",
+    "plugin:react/recommended",
+    "prettier"
+  ]
+}
