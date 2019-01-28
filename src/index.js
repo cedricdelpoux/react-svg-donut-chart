@@ -10,7 +10,7 @@ const ReactSvgDonutChart = ({data, spacing, ...rest}) => {
   return (
     <svg viewBox={`0 0 ${width} ${width}`} {...rest}>
       {data.map((d, i) => {
-        const percent = d.value / Math.ceil(total) * 100
+        const percent = Math.round((d.value / Math.ceil(total)) * 100)
         const DashArrayPercent =
           spacing < 0 || percent - spacing < 0 ? percent : percent - spacing
         const DashArraylength =
