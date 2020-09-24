@@ -30,7 +30,7 @@
     "test:watch": "yarn test -- --watch"
   },
   "dependencies": {
-    "prop-types": "^15.6.0"
+    "prop-types": "^15.6.2"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",
